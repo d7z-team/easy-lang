@@ -1,3 +1,4 @@
-rootProject.name = "KotlinProjectTemplate"
+rootProject.name = "easy-lang"
 include("bom")
-include("template")
+include("lang-core")
+// include("template")

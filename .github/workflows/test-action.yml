@@ -1,10 +1,10 @@
 name: '项目集成测试'
-#on:
-#  push:
-#    branches:
-#      - main
-#  release:
-#    types: [ published, created, edited ]
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [ published, created, edited ]
 jobs:
   build-project:
     runs-on: ubuntu-latest
